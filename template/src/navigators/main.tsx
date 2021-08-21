@@ -6,26 +6,26 @@ import {useNavigation} from 'shared/navigation'
 import MainScreen from 'screens/main'
 import ProfileScreen from 'screens/profile'
 
-const BottomTab = createBottomTabNavigator()
+const {Navigator, Screen} = createBottomTabNavigator()
 const EmptyComponent = () => null
 
 export function MainNavigator() {
   const navigation = useNavigation()
   return (
-    <BottomTab.Navigator
-      tabBarOptions={{
-        showLabel: false,
-        style: Platform.select({android: {height: 58}}),
+    <Navigator
+      screenOptions={{
+        tabBarShowLabel: false,
+        tabBarStyle: Platform.select({android: {height: 58}}),
       }}
     >
-      <BottomTab.Screen
+      <Screen
         name='main'
         component={MainScreen}
         options={{
           tabBarIcon: ({focused}) => <Text>{focused ? '🏠' : '🏡'}</Text>,
         }}
       />
-      <BottomTab.Screen
+      <Screen
         name='create'
         component={EmptyComponent}
         options={{
@@ -42,13 +42,13 @@ export function MainNavigator() {
           ),
         }}
       />
-      <BottomTab.Screen
+      <Screen
         name='profile'
         component={ProfileScreen}
         options={{
           tabBarIcon: ({focused}) => <Text>{focused ? '👨' : '👶'}</Text>,
         }}
       />
-    </BottomTab.Navigator>
+    </Navigator>
   )
 }
