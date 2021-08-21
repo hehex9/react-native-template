@@ -32,8 +32,8 @@ export default function App() {
               name='login-stack'
               component={LoginNavigator}
               options={{
-                stackPresentation: 'containedModal',
                 headerShown: false,
+                presentation: 'containedModal',
               }}
             />
           </Stack.Navigator>

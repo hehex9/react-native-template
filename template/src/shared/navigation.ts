@@ -1,8 +1,8 @@
 import type {
   NativeStackScreenProps,
   NativeStackNavigationProp,
-} from 'react-native-screens/native-stack'
-import {createNativeStackNavigator} from 'react-native-screens/native-stack'
+} from '@react-navigation/native-stack'
+import {createNativeStackNavigator} from '@react-navigation/native-stack'
 import {useNavigation as useNavigationNative} from '@react-navigation/native'
 
 export type RootStackParamList = {
