@@ -22,7 +22,7 @@ jobs:
           path: |
             ~/.gradle/caches
             ~/.gradle/wrapper
-          key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*') }}
+          key: ${{ runner.os }}-gradle-v1-${{ hashFiles('**/*.gradle*') }}
           restore-keys: |
             ${{ runner.os }}-gradle-
 
@@ -55,7 +55,7 @@ jobs:
           echo $ANDROID_KEYSTORE_B64 | base64 -d > android/app/release-key.jks
           cp .env.example .env
           cd android
-          ./gradlew assembleRelease --no-daemon
+          ./gradlew app:assembleRelease --no-daemon
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v2
