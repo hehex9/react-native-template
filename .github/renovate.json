@@ -1,17 +1,3 @@
 {
-  "extends": ["@youjinbu"],
-  "packageRules": [
-    {
-      "groupName": "devDependencies",
-      "matchDepTypes": ["devDependencies"],
-      "matchUpdateTypes": ["patch", "minor"],
-      "automerge": true
-    },
-    {
-      "groupName": "dependencies",
-      "matchDepTypes": ["dependencies"],
-      "matchUpdateTypes": ["patch", "minor"],
-      "automerge": false
-    }
-  ]
+  "extends": ["@youjinbu"]
 }
