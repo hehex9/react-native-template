@@ -24,7 +24,7 @@
     "lint": "eslint template --ext .ts,.tsx && tsc -p template"
   },
   "devDependencies": {
-    "@youjinbu/eslint-config": "0.7.0",
+    "@youjinbu/eslint-config": "0.8.0",
     "@youjinbu/prettier-config": "0.0.1",
     "eslint": "7.32.0",
     "prettier": "2.3.2",
