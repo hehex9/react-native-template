@@ -35,7 +35,7 @@
     "dotenv-cli": "4.0.0",
     "metro-react-native-babel-preset": "0.66.2",
     "patch-package": "6.4.7",
-    "react-native-codegen": "0.0.7"
+    "react-native-codegen": "0.0.8"
   },
   "resolutions": {
     "jsc-android": "https://registry.npmjs.org/@youjinbu/nil/-/nil-1.0.0.tgz"
