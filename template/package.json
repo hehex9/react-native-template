@@ -11,31 +11,31 @@
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "1.15.8",
-    "@react-navigation/bottom-tabs": "6.0.5",
-    "@react-navigation/native": "6.0.2",
-    "@react-navigation/native-stack": "6.1.0",
+    "@react-navigation/bottom-tabs": "6.0.7",
+    "@react-navigation/native": "6.0.4",
+    "@react-navigation/native-stack": "6.2.2",
     "@shopify/restyle": "1.4.0",
     "expo-splash-screen": "0.11.4",
     "expo-updates": "0.8.5",
     "expo-web-browser": "9.2.0",
+    "jsc-android": "https://registry.npmjs.org/@youjinbu/nil/-/nil-1.0.0.tgz",
     "react": "17.0.2",
-    "react-native": "0.65.1",
+    "react-native": "0.66.0",
     "react-native-config": "1.4.4",
     "react-native-gesture-handler": "1.10.3",
     "react-native-reanimated": "2.3.0-alpha.3",
     "react-native-safe-area-context": "3.3.2",
-    "react-native-screens": "3.6.0",
-    "react-native-unimodules": "0.14.6"
+    "react-native-screens": "3.8.0",
+    "react-native-unimodules": "0.14.8"
   },
   "devDependencies": {
-    "@babel/core": "7.15.5",
+    "@babel/core": "7.15.8",
     "@babel/runtime": "7.15.4",
-    "@types/react-native": "0.64.10",
+    "@types/react-native": "0.65.5",
     "babel-plugin-module-resolver": "4.1.0",
     "dotenv-cli": "4.0.0",
     "metro-react-native-babel-preset": "0.66.2",
-    "patch-package": "6.4.7",
-    "react-native-codegen": "0.0.8"
+    "patch-package": "6.4.7"
   },
   "resolutions": {
     "jsc-android": "https://registry.npmjs.org/@youjinbu/nil/-/nil-1.0.0.tgz"
