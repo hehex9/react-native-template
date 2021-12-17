@@ -2656,10 +2656,10 @@ expo-updates@0.8.5:
     resolve-from "^5.0.0"
     uuid "^3.4.0"
 
-expo-web-browser@9.2.0:
-  version "9.2.0"
-  resolved "https://registry.yarnpkg.com/expo-web-browser/-/expo-web-browser-9.2.0.tgz#34c1355552c4c6eaae515340a0761939a9bf6152"
-  integrity sha512-Gy9tkIw/JplfiTiOR/pdEbLdyuzeQBYFuU27TXSfLOn/tDRcOghOcJ+vNH2FX3iZqReBHMJEINjcWxpOpOvpFw==
+expo-web-browser@10.1.0:
+  version "10.1.0"
+  resolved "https://registry.yarnpkg.com/expo-web-browser/-/expo-web-browser-10.1.0.tgz#fd91695c44e0f3006da3089f230573c1cb3b026a"
+  integrity sha512-/sT+YovMxtR2AYVtZdeyjJLPYQrUXr06KAee2bbLeiPQbk0PPwVJNBK6w5/3GoQZIhNScR3K3P3xx6pNfm4X1A==
   dependencies:
     compare-urls "^2.0.0"
 
